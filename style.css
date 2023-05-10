@@ -49,8 +49,16 @@ main{
     height: calc(100% /10);
     width: calc(100% /10);
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .active{
     display: flex;
 }
+
+.square-green{
+    background-color: green;
+}
+
